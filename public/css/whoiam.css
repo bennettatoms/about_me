@@ -1,0 +1,56 @@
+body { 
+  background: url('../img/family.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -5;   
+
+  text-align: left;
+  margin: 30px;
+  color: #FFF;
+  font-family: 'Century Gothic';
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 200;
+  font-variant: small-caps;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+
+h2 {
+  margin-top: 350px;
+  text-align: center;
+  color: rgb(255, 255, 255); 
+  font: bold 25px 'Century Gothic'; 
+  font-weight: 250;
+  margin-bottom: 50px;
+  background: rgb(170, 170, 170); /* fallback color */
+  background: rgba(170, 170, 170, 0.5);
+} 
+
+ul { 
+  padding: 5%;
+}
+
+li {
+  display: inline-block;
+  color: rgb(255,255,255);
+  font-size: 20px;
+  opacity: 1;
+  padding: 0px 65px 0px 65px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(255, 255, 255, 0.6);
+}
+
+

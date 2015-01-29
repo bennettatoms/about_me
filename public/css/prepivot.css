@@ -1,0 +1,58 @@
+body { 
+  background: url('../img/mri.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center
+
+  text-align: left;
+  margin: 30px;
+  color: #FFF;
+  font-family: 'Century Gothic';
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 200;
+  font-variant: small-caps;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  margin-left: 15px;
+  color: rgb(100,0,255);
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+  margin-left: 75px;
+  margin-bottom: 45px;
+} 
+
+h3 {
+  text-align: left;
+  color: rgb(0,255,255); 
+  font: bold 22px 'Century Gothic'; 
+  font-weight: 200;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+}
+
+ul { 
+  padding: 5%;
+}
+
+li {
+  display: inline-block;
+  color: rgb(255,255,255);
+  font-size: 20px;
+  opacity: 1;
+  padding: 0px 80px 0px 80px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(255, 255, 255, 0.6);
+}
+
+

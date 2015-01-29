@@ -1,0 +1,66 @@
+body { 
+  background: url('../img/profile.jpg'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+
+  text-align: right;
+  margin: 30px;
+  color: #FFF;
+  font-family: 'Century Gothic';
+}
+
+h1 {
+  text-align: right;
+  font-size: 50px;
+  color: black;
+  font-weight: 200;
+  font-variant: small-caps;
+  margin-right: 10px;
+  margin-bottom: 80px;
+  margin-left: 120px;
+}
+
+h2 {
+  text-align: right;
+  color: black;
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 50px;
+  margin-right: 20px;
+}
+
+h3 {
+  text-align: right;
+  color: black;
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 50px;
+  margin-right: 80px;
+}
+/*
+.twitter-follow-button { 
+  min-height: 40px !important;
+  min-width: 80px !important; 
+  width: auto !important; 
+  border: 1px solid red; 
+} 
+
+ul { 
+  padding: 5%;
+}
+*/
+li {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70%;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+

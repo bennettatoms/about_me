@@ -1,0 +1,102 @@
+body { 
+  background: url('../img/bayon.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center
+
+  text-align: left;
+  margin: 30px;
+  color: #FFF;
+  font-family: 'Century Gothic';
+}
+
+div {
+  -webkit-columns: 250px 4; /* Chrome, Safari, Opera */
+  -moz-columns: 250px 4; /* Firefox */
+  columns: 250px 4;
+  -webkit-column-rule: 3px outset rgb(255,255,255); /* Chrome, Safari, Opera */
+  -moz-column-rule: 3px outset rgb(255,255,255); /* Firefox */
+  column-rule: 3px outset rgb(255,255,255);
+}
+
+h1 {
+  font-size: 60px;
+  color: black;
+  font-weight: 200;
+  font-variant: small-caps;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+h2 {text-align: left;
+  font-size: 25px;
+  font-weight: 200;
+  margin-left: 0px;
+  margin-bottom: 25px;
+} 
+
+p2 {
+  font-size: 12px;
+}
+
+#column1 {
+  color: rgb(0,0,0);
+  line-height:20px;
+  height:480px;
+  max-width:280px;
+  float:left;
+  padding:5px; 
+}
+
+#column2 {
+  color: rgb(20,20,20);
+  line-height:20px;
+  height:480px;
+  max-width:280px;
+  float:left;
+  padding:5px; 
+}
+
+#column3 {
+  color: rgb(240,240,240);
+  line-height:20px;
+  height:480px;
+  max-width:280px;
+  float:left;
+  padding:5px; 
+}
+
+#column4 {
+  color: rgb(240,240,240);
+  line-height:20px;
+  height:480px;
+  max-width:280px;
+  float:left;
+  padding:5px;
+}
+
+ul {
+  padding: 5%;
+}
+
+li {
+  display: inline-block;
+  color: rgb(255,255,255);
+  font-size: 20px;
+  opacity: 1;
+  padding: 0px 75px 0px 75px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 300px) {
+  body {
+    background: red;
+  }
+}
+
+
+

@@ -1,0 +1,41 @@
+body { 
+  background: url('../img/mahout.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+  text-align: left;
+  margin: 30px;
+  color: #FFF;
+  font-family: 'Century Gothic';
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: 200;
+  font-variant: small-caps;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 200;
+  margin-left: 200px;
+  margin-bottom: 45px;
+} 
+/*
+ul { 
+  padding: 5%;
+}
+*/
+li {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.8;
+  padding: 10px 400px 10px 0px;
+  margin-left: 00px;
+  font-weight: bold;
+}
+
